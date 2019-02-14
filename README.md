@@ -9,6 +9,11 @@
     6. matplotlib
 
 ## Usage
+
+### Use preprocessed results
+
+Download the [required pickle file here](), then put it under the project root directory.
+
 To see a specific word in interactive mode:
    
     python visualize.py --word fire --n 2
@@ -19,18 +24,28 @@ To plot for all words:
     
     python visualize.py
     
+### Create from scratch
+
+    1. download SNLI, then unzip under project root.
+    2. move preprocess.py under the SNLI sub directory.
+    3. python preprocess.py (this will create text.txt under the SNLI sub directory).
+    4. python extract_and_compare.py (this will create snli.pkl and word2embed.pkl).
+
+Then refer to **Use preprocess results**
+    
 ## Dataset
 
 Use the training set of [SNLI](https://nlp.stanford.edu/projects/snli/), 
         
     1. pick the most frequent 200 - 400 words 
        (The top 200 words have many punctuations and pronouns, and are thus not interesting to study).
-    2. extract the ELMo embeddings
-    3. for each word, use kmeans to cluster its ELMo representations
-    4. Visualize by transform the 1024 dimensional ELMo embeddings to 3 dimensional
+    2. extract the ELMo embeddings.
+    3. for each word, use kmeans to cluster its ELMo representations.
+    4. Visualize by transform the 1024 dimensional ELMo embeddings to 3 dimensional.
 
 ## Result
-    See `images` for visualized clusters for each word
+
+See *images* for visualized clusters for each word.
     
 ## Examples
 
