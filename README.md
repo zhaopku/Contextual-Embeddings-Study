@@ -14,13 +14,15 @@
 
 Download the [required pickle file here](https://drive.google.com/open?id=149RvKn4nPldCCmVd8Yvo7IcDhbCC4ekX), then put it under the project root directory.
 
+**Interactive**
+
 To see a specific word in interactive mode:
    
     python visualize.py --word fire --n 2
     
  The above command visualize the embedding clusters of **fire**, with a cluster number of 2.
-    
-To plot for all words:
+
+**Get plots for all**
     
     python visualize.py
     
