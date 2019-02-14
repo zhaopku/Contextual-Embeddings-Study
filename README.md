@@ -1,6 +1,6 @@
 # Contextual Embeddings Study
 
-Please see **Examples** below. [here](#Examples)
+Please see **[Examples]**(#Examples) below. 
 
 ## Requirements
     1. TensorFlow 1.12
