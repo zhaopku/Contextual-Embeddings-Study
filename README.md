@@ -53,10 +53,11 @@ The words below could either be a verb or a noun.
 We can see 2 obvious clusters for the embeddings of these words.
 
 **train** with 2 clusters
-![\"Train\" with 2 clusters](images/train/2.png)![\"Watch\" with 2 clusters](images/watch/2.png)
+![\"Train\" with 2 clusters](images/train/2.png)
 
 
 **watch** with 2 clusters
+![\"Watch\" with 2 clusters](images/watch/2.png)
 
 **fire** with 2 clusters
 ![\"fire\" with 2 clusters](images/fire/2.png)
