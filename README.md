@@ -63,23 +63,20 @@ make it hard to distinguish some clusters from others.
 The words below could either be a verb or a noun. 
 We can see 2 obvious clusters for the embeddings of these words.
 
-**train** with 2 clusters
-![\"Train\" with 2 clusters](images/train/2.png)
+**train** with 2 clusters  |  **watch** with 2 clusters
+:-------------------------:|:-------------------------:
+![\"Train\" with 2 clusters](images/train/2.png)  |  ![\"watch\" with 2 clusters](images/watch/2.png)
 
-**watch** with 2 clusters
-![\"Watch\" with 2 clusters](images/watch/2.png)
-
-**fire** with 2 clusters
-![\"fire\" with 2 clusters](images/fire/2.png)
+**fire** with 2 clusters  |  **ride** with 2 clusters
+:-------------------------:|:-------------------------:
+![\"fire\" with 2 clusters](images/fire/2.png)  |  ![\"ride\" with 2 clusters](images/ride/2.png)
 
 ### Words with one meaning
 
 For some words which typically have one meaning, we do not observe obvious clusters.
 
-**coat** 
-![\"coat\" with 2 clusters](images/coat/2.png)
-
-**train** with 2 clusters  |  **watch** with 2 clusters
+**sunglasses** with 2 clusters  |  **asleep** with 2 clusters
 :-------------------------:|:-------------------------:
-![\"Train\" with 2 clusters](images/train/2.png)  |  ![\"Watch\" with 2 clusters](images/watch/2.png)
+![\"sunglasses\" with 2 clusters](images/sunglasses/2.png)  |  ![\"asleep\" with 2 clusters](images/asleep/2.png)
+
 
