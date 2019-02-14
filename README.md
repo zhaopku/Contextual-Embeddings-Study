@@ -11,7 +11,9 @@
 ## Usage
 To see a specific word in interactive mode:
    
-    python visualize.py --word fire
+    python visualize.py --word fire --n 2
+    
+ The above command visualize the embedding clusters of **fire**, with a cluster number of 2.
     
 To plot for all words:
     
@@ -32,6 +34,14 @@ Use the training set of [SNLI](https://nlp.stanford.edu/projects/snli/),
     
 ## Examples
 
-<p>
-  <img src='images/train/2.png' height='400' width='375'/>
-</p>
+The words below could either be a verb or a noun. 
+We can see 2 obvious clusters for the embeddings of these words.
+
+**train** with 2 clusters
+![\"Train\" with 2 clusters](images/train/2.png)
+
+**watch** with 2 clusters
+![\"Watch\" with 2 clusters](images/watch/2.png)
+
+**fire** with 2 clusters
+![\"fire\" with 2 clusters](images/fire/2.png)
