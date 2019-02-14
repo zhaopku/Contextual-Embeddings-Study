@@ -48,8 +48,15 @@ Use the training set of [SNLI](https://nlp.stanford.edu/projects/snli/),
 ## Result
 
 See *images* for visualized clusters for each word.
+
+## Problems
+
+To visualize the clusters, we reduce the embedding size from 1024 to 3 by PCA, which could
+make it hard to distinguish some clusters from others. 
     
 ## Examples
+
+### Words with multiple meanings
 
 The words below could either be a verb or a noun. 
 We can see 2 obvious clusters for the embeddings of these words.
@@ -57,9 +64,16 @@ We can see 2 obvious clusters for the embeddings of these words.
 **train** with 2 clusters
 ![\"Train\" with 2 clusters](images/train/2.png)
 
-
 **watch** with 2 clusters
 ![\"Watch\" with 2 clusters](images/watch/2.png)
 
 **fire** with 2 clusters
 ![\"fire\" with 2 clusters](images/fire/2.png)
+
+### Words with one meaning
+
+For some words which typically have one meaning, we do not observe obvious clusters.
+
+**coat** 
+![\"coat\" with 2 clusters](images/coat/2.png)
+
