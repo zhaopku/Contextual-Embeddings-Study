@@ -65,7 +65,7 @@ We can see 2 obvious clusters for the embeddings of these words.
 
 **train** with 2 clusters  |  **watch** with 2 clusters
 :-------------------------:|:-------------------------:
-![\"Train\" with 2 clusters](images/train/2.png)  |  ![\"watch\" with 2 clusters](images/watch/2.png)
+![*Train* with 2 clusters](images/train/2.png)  |  ![\"watch\" with 2 clusters](images/watch/2.png)
 
 **fire** with 2 clusters  |  **ride** with 2 clusters
 :-------------------------:|:-------------------------:
