@@ -35,7 +35,7 @@ To see a specific word in interactive mode:
 
 Then refer to **Use preprocess results**
     
-## Dataset
+## Methodology
 
 Use the training set of [SNLI](https://nlp.stanford.edu/projects/snli/), 
         
