@@ -12,7 +12,7 @@
 
 ### Use preprocessed results
 
-Download the [required pickle file here](), then put it under the project root directory.
+Download the [required pickle file here](https://drive.google.com/open?id=149RvKn4nPldCCmVd8Yvo7IcDhbCC4ekX), then put it under the project root directory.
 
 To see a specific word in interactive mode:
    
@@ -53,10 +53,10 @@ The words below could either be a verb or a noun.
 We can see 2 obvious clusters for the embeddings of these words.
 
 **train** with 2 clusters
-![\"Train\" with 2 clusters](images/train/2.png)
+![\"Train\" with 2 clusters](images/train/2.png)![\"Watch\" with 2 clusters](images/watch/2.png)
+
 
 **watch** with 2 clusters
-![\"Watch\" with 2 clusters](images/watch/2.png)
 
 **fire** with 2 clusters
 ![\"fire\" with 2 clusters](images/fire/2.png)
