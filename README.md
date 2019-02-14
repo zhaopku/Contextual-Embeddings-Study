@@ -1,6 +1,6 @@
 # Contextual Embeddings Study
 
-Please see **[Examples]**(#Examples) below. 
+Please see [Examples](#Examples) below. 
 
 ## Requirements
     1. TensorFlow 1.12
@@ -78,4 +78,8 @@ For some words which typically have one meaning, we do not observe obvious clust
 
 **coat** 
 ![\"coat\" with 2 clusters](images/coat/2.png)
+
+**train** with 2 clusters  |  **watch** with 2 clusters
+:-------------------------:|:-------------------------:
+![\"Train\" with 2 clusters](images/train/2.png)  |  ![\"Watch\" with 2 clusters](images/watch/2.png)
 
