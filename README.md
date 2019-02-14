@@ -1,5 +1,7 @@
 # Contextual Embeddings Study
 
+Please see **Examples** below.
+
 ## Requirements
     1. TensorFlow 1.12
     2. TensorFlow Hub
