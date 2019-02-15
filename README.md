@@ -63,11 +63,11 @@ make it hard to distinguish some clusters from others.
 The words below could either be a verb or a noun. 
 We can see 2 obvious clusters for the embeddings of these words.
 
-**train** with 2 clusters  |  **watch** with 2 clusters
+**train**   |  **watch** 
 :-------------------------:|:-------------------------:
 ![Train with 2 clusters](images/train/2.png)  |  ![\"watch\" with 2 clusters](images/watch/2.png)
 
-**fire** with 2 clusters  |  **ride** with 2 clusters
+**fire**   |  **ride** 
 :-------------------------:|:-------------------------:
 ![\"fire\" with 2 clusters](images/fire/2.png)  |  ![\"ride\" with 2 clusters](images/ride/2.png)
 
@@ -75,7 +75,7 @@ We can see 2 obvious clusters for the embeddings of these words.
 
 For some words which typically have one meaning, we do not observe obvious clusters.
 
-**sunglasses** with 2 clusters  |  **asleep** with 2 clusters
+**sunglasses**   |  **asleep** 
 :-------------------------:|:-------------------------:
 ![\"sunglasses\" with 2 clusters](images/sunglasses/2.png)  |  ![\"asleep\" with 2 clusters](images/asleep/2.png)
 
